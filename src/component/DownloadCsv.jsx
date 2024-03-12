@@ -41,7 +41,9 @@ function DownloadCsv() {
 
   return (
     <div className="App">
-      <button onClick={downloadCSV}>download</button>
+      <button className="download" onClick={downloadCSV}>
+        download
+      </button>
     </div>
   );
 }

@@ -1,38 +1,96 @@
-.App {
+/* form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  height: 100px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 4px;
+} */
+
+/* AddStudent.css */
+
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 40px 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form h2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.registration-form label {
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="number"],
+.registration-form select,
+.registration-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.registration-form select {
+  height: 40px; /* Adjust height for select elements */
+}
+
+.registration-form textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.registration-form input[type="submit"],
+.download {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Blue color for submit button */
   color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Add more custom styles as needed */
