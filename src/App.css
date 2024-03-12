@@ -83,7 +83,8 @@ select {
 }
 
 .registration-form input[type="submit"],
-.download {
+.download,
+.button {
   width: 100%;
   padding: 10px;
   background-color: #007bff; /* Blue color for submit button */
@@ -91,6 +92,14 @@ select {
   border: none;
   border-radius: 5px;
   margin: 10px;
+  cursor: pointer;
 }
 
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /* Add more custom styles as needed */
